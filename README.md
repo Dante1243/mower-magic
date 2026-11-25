@@ -32,15 +32,20 @@ The old site had 16 separate menu pages. They're merged here: the 9 product cate
 
 ## What changed vs the old site (sales pitch)
 
-- **The old site is hacked and full of spam links.** Almost every page has injected spam text and links at the bottom of the content: spyware apps, essay-writing services, even German-language spam. Examples are the home page (spyappsinsider.com), contact (cellspyapps.org), repairs (pro-academic-writers.com), sharpening (overnightessay.co.uk) and links (a "how to install spyware on a cell phone" page). Customers see this, and Google can penalise the site for it. **This is the strongest pitch point.**
-- **"Not secure" warning.** There's no HTTPS, so browsers flag the site. The new site is static and ready to host on HTTPS.
-- **Ancient platform.** WordPress 3.6 (2013) with old slider plugins, and the footer still says © 2016. Old unpatched WordPress is very likely how the spam got in. The new site is static HTML, so there's no WordPress to hack or update.
-- **Broken on phones and iPads.** The new site has a responsive layout, a hamburger menu, a tap-to-call button in the header and a sticky "Call Baldivis" bar at the bottom on phones. It was tested at 375px, 768px and 1366px with no sideways scrolling.
+- **The old site has spam links in its pages.** (Rechecked on saved copies, 24 Nov 2026: all 17 pages have them, but on 15 they're in a block pushed off the screen. Visitors only see them on Spare Parts and Sharpening. How they got there is a guess, so don't say "hacked".) Almost every page has injected spam text and links at the bottom of the content: spyware apps, essay-writing services, even German-language spam. Examples are the home page (spyappsinsider.com), contact (cellspyapps.org), repairs (pro-academic-writers.com), sharpening (overnightessay.co.uk) and links (a "how to install spyware on a cell phone" page). Customers see this, and Google can penalise the site for it. **This is the strongest pitch point.**
+- **http isn't sent to https.** https does answer, but the plain http address doesn't switch to it, so some visitors can still see "Not secure".
+- **Ancient platform.** WordPress 3.6 (2013) with old slider plugins, and the footer still says © 2016. The new site is static HTML, so there's no WordPress to hack or update.
+- **Phones.** The old site has a phone layout, so don't say it's broken. The new site has a responsive layout, a hamburger menu, a tap-to-call button in the header and a sticky "Call Baldivis" bar at the bottom on phones. It was tested at 375px, 768px and 1366px with no sideways scrolling.
 - **Broken content fixed.** The sharpening page's photo was broken (its HTML was mangled by the spam injection), and the photo now shows. A pressure washer was listed under "Sprayers", and it's now under Engines & Pressure Washers. Leftover pages such as "Push Mowers old" and "push-test" are gone.
 - **Dead social links removed.** Google+ shut down in 2019. Twitter was dropped too. Facebook is kept.
 - **Phone numbers were hard to find.** The old footer only showed the Mandurah number. The new site shows both stores everywhere, with click-to-call links.
 - **Faster.** The big hero photos were resized from 2500px (1.0–1.5 MB each) to 1600px (~200–300 KB). Product images lazy-load.
 - **Same brand, refreshed.** It uses their real logo, the same green (#198048 / #006832) and yellow (#fff100), and the same Bowlby One heading font. All text, services, brands, hours and contact details come from their current site. No testimonials, prices or awards were added.
+
+### Don't say
+
+- "You've been hacked" or "customers can see spam on every page".
+- "There's no HTTPS" or "it doesn't work on phones".
 
 ## Notes and things to confirm with the client
 
